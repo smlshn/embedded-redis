@@ -39,7 +39,7 @@ public class RedisServer extends AbstractRedisInstance {
         );
     }
 
-    RedisServer(List<String> args, int port) {
+    public RedisServer(List<String> args, int port) {
         super(port);
         this.args = new ArrayList<String>(args);
     }
